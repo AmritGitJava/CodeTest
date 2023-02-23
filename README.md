@@ -2,22 +2,31 @@
 
 Implemented as per requirement.
 
+
 Using Softwares and Language:
 
 Java 8
+
 MySql 8
+
 Spring-boot 2.3.1
+
 Spring JPA
+
 Intellij IDEA
+
 REST API implementation
 
 Tables created by code while run application.
+
 mvn clean spring-boot:run
 
 Once tables created in MySql database, comment "spring.jpa.hibernate.ddl-auto = create" property in application.properties file.
 
 POST method to insert data in MySql database: http://localhost:8080/api/v1/customer
+
 Sample request:
+
 {
     "customerName":"Name",
     "phone":[
