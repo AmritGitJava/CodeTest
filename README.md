@@ -19,7 +19,7 @@ REST API implementation
 
 Tables created by code while run application.
 
-mvn clean spring-boot:run
+To Run Application: select "SpringBootTelecomApplication.java" file and right click and click on "Run". Application started.
 
 Once tables created in MySql database, comment "spring.jpa.hibernate.ddl-auto = create" property in application.properties file.
 
